@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 20pt;
     background-color: #eaeaea;
     color: #333;
     margin: 20px;
@@ -93,3 +93,30 @@ ul, ol {
 .footer-links a:active {
     color: #3e7ea0;
 }
+
+
+
+.dropbtn {
+background: #4a90e2;
+color: #ffffff;   
+font-size: 25px;
+}
+
+.dropdown {
+position: relative;
+float:right;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background: #ffffff;
+min-width: 200px;
+}
+.dropdown-content a {
+display: block; 
+}
+
+.dropdown-content a:hover {background-color: #f50a0a}
+.show {display:block;}
