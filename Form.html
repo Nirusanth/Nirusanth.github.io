@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>My Educational Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Nirusanth Ravishankar </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                
+                <div class="Education">
+                    <button onclick="myFunction()" class="dropbtn">Education</button>
+                    <div id="myDropdown" class="dropdown-content">
+                    <a href="Ed.html">Formal</a>
+                    <a href="Courses.html">Current Courses</a>
+                    </div>
+                    </div>
+
+                <div class="Extracurriculars">
+                    <button onclick="myFunction1()" class="dropbtn">Extracurriculars</button>
+                    <div id="myDropdown1" class="dropdown-content">
+                    <a href="Ex.html">Student Groups</a>
+                    <a href="V.html">Volunteering</a>
+                
+                    </div>
+                    </div>
+
+                <div class="Connect">
+                    <button onclick="myFunction2()" class="dropbtn">Connect with me</button>
+                    <div id="myDropdown2" class="dropdown-content">
+                    <a href="https://www.linkedin.com/in/nirusanth-ravishankar-640a6a277">LinkedIn</a>
+                    <a href="mailto:nravishankar@torontomu.ca">Email</a>
+                    </div>
+                    </div>
+                
+                    <li><a href="Form.html">Form</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+ <!-- Contact Us Form -->
+ <div class="main-content">
+    <h1>Inquiries</h1>
+    <form id="contactForm">
+        <!-- Inquirer's Name -->
+        <div>
+            <label for="name"> Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+       <!-- Phone Number -->
+       <div>
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="Phone" required>
+       </div>  
+
+        <!-- Email -->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+       <!-- Dropdown Menu for Gender -->
+        <div>
+            <label for="inquiryType">What is your Gender:</label>
+            <select id="gender" name=Gender">
+                <option value="">Select an option</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Checkbox for Type of Inquiry -->
+        <div>
+            <label for="inquiry">Inquiry Type</label>
+            <fieldset>
+                <legend>Select from the following:</legend>
+                <label><input type="radio" name="gender" value="question" required> Question</label>
+                <label><input type="radio" name="gender" value="complaint" required> Complaint</label>
+                <label><input type="radio" name="gender" value="business"> Business</label>
+            </fieldset>
+        </div>
+
+        
+
+        <!-- Statement Text Area -->
+        <div>
+            <label for="comments"> Statement:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div>
+
+        <!--Suggestion List -->
+        <div>
+            <label for="suggestions"> Quick Suggestions:</label>
+            <input list="suggestionList" id="suggestions" name="suggestions" placeholder="Type a suggestion..">
+            <datalist id="suggestionList">
+                <option value="Cleaner Formatting">
+                <option value="More Information">
+            </datalist>
+        </div>
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Preferred Contact Method:</legend>
+            <label><input type="radio" name="contactMethod" value="email" required>Email</label><br>
+            <label><input type="radio" name="contactMethod" value="phone">Phone</label><br>
+        </fieldset>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</div>
+
+
+
+    <footer>
+        <p>&copy; 2024 Nirusanth Ravishankar Educational Portfolio</p>
+    </footer>
+
+<script src="NiruMain.js"></script>
+<script src="Form.Js"></script>
+</body>
+</html>
