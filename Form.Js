@@ -1,4 +1,4 @@
-document.getElementById("userForm").addEventListener("submit", function (e) {
+document.getElementById("inquiryForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
     const formInfo = {
@@ -17,5 +17,5 @@ function formReset() {
     // clear localStorage 
     localStorage.removeItem("userFormData");
     
-    document.getElementById("output").textContent = "Form reset!";
+    document.getElementById("output").textContent = "Reset";
 }
