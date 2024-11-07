@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header  */
+header {
+    background-color: #1d195a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: #ffffff
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Home page body */
+p{
+font-size: 1.5em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #103d70;
+}
+
+section h2 {
+    font-size: 3em;
+    color: #103d70;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #4a90e2;
+}
+
+section p, section ol {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #555;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+ol li p {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;      
+    margin: 0;
+}
+
+main {
+    flex: 1;                /* pushes footer to the bottom */
+}
+
+
+footer {
+    background-color: #1d195a;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9em;
+    color: #fff;  
+}
+
+
+
+/*  NiruImage Settings */
+.image-section {
+    display: flex;
+    justify-content: center;    /* centers horizontally */
+    align-items: center;        /* centers vertically  */
+    margin: 20px 0;             /* adds spacing around the section */
+}
+
+.profile-image {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+
+.profile-image {
+    width: 300px;              /* Keeps the width of the image */
+    height: 300px;             /* keeps an even height for image in circle */
+    border-radius: 50%;        /* rounds the image */
+    object-fit: cover;         /* stops image from doesn't stretch */
+    cursor: pointer;
+}
