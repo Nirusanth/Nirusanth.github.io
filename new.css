@@ -85,7 +85,7 @@ h3 {
 section p, section ol {
     max-width: 800px;
     margin: 0 auto;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.6;
     color: #555;
 }
@@ -149,4 +149,23 @@ footer {
     border-radius: 50%;        /* rounds the image */
     object-fit: cover;         /* stops image from doesn't stretch */
     cursor: pointer;
+}
+
+ /*Instagram Icon Link  */
+
+.instagram-link {                
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.instagram-link a {
+    color: #103d70; 
+    font-size: 70px;
+    text-decoration: none;
+    transition: color 0.5s ease-in-out;
+}
+
+.instagram-link a:hover {
+    color: #e90a88; 
+
 }
