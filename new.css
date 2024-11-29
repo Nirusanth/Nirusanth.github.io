@@ -115,7 +115,7 @@ body {
 }
 
 main {
-    flex: 1;                /* pushes footer to the bottom */
+    flex: 1;                /* sets footer at bottom */
 }
 
 
@@ -147,7 +147,7 @@ footer {
     width: 300px;              /* Keeps the width of the image */
     height: 300px;             /* keeps an even height for image in circle */
     border-radius: 50%;        /* rounds the image */
-    object-fit: cover;         /* stops image from doesn't stretch */
+    object-fit: cover;         /* stops image from stretching */
     cursor: pointer;
 }
 
@@ -169,3 +169,39 @@ footer {
     color: #e90a88; 
 
 }
+
+
+
+/*Accessibility Button  */
+.access-txt {
+    font-size: 17pt; /* sets bigger text size */
+}
+
+
+/*Button Centering   */
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh; 
+  }
+  
+/* Button Styling  */
+button {
+    background-color: #103d70; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Button Hover effect */
+  button:hover {
+    background-color: #4a90e2; 
+  }
+  
+  
+ 
